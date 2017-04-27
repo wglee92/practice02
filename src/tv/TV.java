@@ -78,11 +78,11 @@ public class TV {
 	public void status() {
 		System.out.println("<TV>");
 		System.out.print("현재 전원 상태 : ");
-		if (power == true)
+		if (isPower() == true)
 			System.out.print("ON" + "\n");
 		else System.out.print("OFF" + "\n");
-		System.out.print("현재 채널 : " + channel + "번\n");
-		System.out.print("현재 볼륨 : " + volume + "\n\n");
+		System.out.print("현재 채널 : " + getChannel() + "번\n");
+		System.out.print("현재 볼륨 : " + getVolume() + "\n\n");
 		
 	}
 }
