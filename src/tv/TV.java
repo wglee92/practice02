@@ -83,9 +83,6 @@ public class TV {
 		else System.out.print("OFF" + "\n");
 		System.out.print("현재 채널 : " + channel + "번\n");
 		System.out.print("현재 볼륨 : " + volume + "\n\n");
-
-
 		
 	}
-
 }
